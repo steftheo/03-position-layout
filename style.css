@@ -3,9 +3,45 @@
 }
 
 *::before, *::after {
-  margin: auto;
+  box-sizing: inherit;
+}
+
+.header {
+  max-width: 100%;
+
+}
+
+.brand-logo {
+  position: absolute;
+  border-radius: 50%;
+  float: left;
+
 }
 
 body {
   margin: 0;
+}
+
+.app-content {
+
+}
+
+.row {
+  text-align: left;
+}
+
+.sidebar {
+  width: 20%;
+  background: green;
+  top: 20%;
+  left: 20%;
+
+}
+
+.article {
+  max-width: 50%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50, -50);
+  background: red;
 }
