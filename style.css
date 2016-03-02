@@ -6,15 +6,23 @@
   box-sizing: inherit;
 }
 
-.header {
-  max-width: 100%;
+.banner {
+  width: 100%;
+  max-height: 15em;
+  margin: auto;
+  display: block;
+  position: relative;
 
 }
 
 .brand-logo {
   position: absolute;
   border-radius: 50%;
-  float: left;
+  left: 20%;
+  top: 23%;
+}
+
+.header {
 
 }
 
@@ -33,15 +41,21 @@ body {
 .sidebar {
   width: 20%;
   background: green;
-  top: 20%;
-  left: 20%;
+  left: 30%;
+  margin-top: 15%;
 
+}
+
+.search {
+  text-align: center;
+  margin: auto;
 }
 
 .article {
   max-width: 50%;
-  left: 30%;
-  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
   transform: translate(-50, -50);
   background: red;
 }
