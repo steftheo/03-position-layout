@@ -43,7 +43,6 @@ body {
 
 .sidebar {
   width: 20%;
-  background: green;
   left: 30%;
   margin-top: 15%;
   float: left;
@@ -57,7 +56,6 @@ body {
 
 .article {
   max-width: 55%;
-  background: red;
   float: left;
   margin-left: 5%;
 }
