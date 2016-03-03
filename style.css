@@ -21,10 +21,12 @@
   border-radius: 50%;
   left: 20%;
   top: 23%;
+  border: 5px white solid;
 
 }
 
 .header {
+  position: inherit;
 
 }
 
@@ -61,8 +63,13 @@ body {
   margin-left: 5%;
 }
 
+.article-pic {
+
+}
+
 .authors {
   font-style: italic;
+  font-weight: lighter;
 }
 
 /* ====== media ====== */
